@@ -8,11 +8,13 @@ public class Curso {
     private String nombre;
     private int id;
     private List<Estudiante> listEstudiantes;
+    private Docente docente;
 
-    public Curso(String nombre, int id){
+    public Curso(String nombre, int id, Docente docente){
         this.nombre=nombre;
         this.id=id;
         this.listEstudiantes = new ArrayList<>();
+        this.docente=docente;
     }
 
     public boolean verificarEstudiante(Estudiante estudiante){
@@ -40,6 +42,7 @@ public class Curso {
                 "nombre='" + nombre + '\'' +
                 ", id=" + id +
                 ", listEstudiantes=" + listEstudiantes +
+                ", docente=" + docente +
                 '}';
     }
 }
