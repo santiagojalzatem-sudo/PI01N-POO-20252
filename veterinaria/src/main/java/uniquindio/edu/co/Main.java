@@ -23,7 +23,7 @@ public class Main {
 
         Cita cita = new Cita("28/08/2025", "3456", "9:30 am", veterinario1, mascota3, propietario1);
         Cita cita2 = new Cita("28/08/2025", "3456", "10:00 am", veterinario1, mascota3, propietario1);
-        
+
         System.out.println(cita.toString());
     }
 }
