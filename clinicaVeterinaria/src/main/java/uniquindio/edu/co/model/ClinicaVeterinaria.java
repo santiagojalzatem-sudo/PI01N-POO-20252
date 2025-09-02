@@ -42,6 +42,7 @@ public class ClinicaVeterinaria {
      * @param propietario objeto {@link Propietario} que se desea registrar
      */
     public void registrarPropietario(Propietario propietario){
+
         listPropietarios.add(propietario);
     }
 
